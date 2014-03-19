@@ -6,15 +6,11 @@
 html, body {
   background: $BG;
   color: $darkgray;
-  font-family: 'Exo 2', sans-serif;
+  font-family: 'Exo 2', tahoma, verdana;
 }
 
 body {
   //border-top: 3px solid $gray;
-}
-
-.sidebar {
-  text-align: left;
 }
 
 .left-header {
@@ -110,7 +106,7 @@ footer {
   margin-top: 5em;
 
   .column {
-    padding: 0.5em 0;
+    padding: 0em 0;
     h1 {
       margin-bottom: 0 !important;
     }
