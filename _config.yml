@@ -1,0 +1,13 @@
+name: yottanami
+markdown: redcarpet
+pygments: true
+url: http://blog.yottanami.com
+description: Personal blog of Behnam AHmad Khan Beigi | وبلاگ شخصی بهنام احمد خان بیگی
+rss_path: /feed
+rss_name: feed.xml
+rss_post_limit: 10
+tag_page_layout: tag_page
+tag_page_dir: tag
+paginate: 10
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile']
+timezone: Asia/Tehran
