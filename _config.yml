@@ -9,5 +9,19 @@ rss_post_limit: 10
 tag_page_layout: tag_page
 tag_page_dir: tag
 paginate: 10
-exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile']
 timezone: Asia/Tehran
+exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile']
+
+
+authors:
+  yottanami:
+    name: Behnam Ahmad Khan Beigi
+    display_name: yottanami
+    gravatar: c
+    email: yottanami@gnu.org
+    web: http://yottanami.com
+    twitter: yottanami
+    github: yottanami
+    color: orange
+    linkedin: http://ir.linkedin.com/pub/behnam-ahmad-khan-beigi/55/930/857/
+    about: Behnam AhmadKhanBeigi is known as **yottanami** on web. Starts to work as web developer since 2001. He is enjoying software development with Python, Ruby and JavaScript. Trainer and speaker of FreeSoftware and GNU/Linux. He works at [Yellowen](http://www.yellowen.com) as senior developer. Fan of FreeSoftware, GNU, Linux, Muisc ...
