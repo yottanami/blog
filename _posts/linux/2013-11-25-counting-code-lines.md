@@ -5,6 +5,7 @@ date: '2013-11-25T12:02:52+03:30'
 tags:
 - Programming
 author: yottanami
+category: فناوری
 ---
 If you want to count lines of code of a project one of the best way is wc tool in GNU/Linux . but there is many other tools that will help you, Here I will introduce some of them:
 

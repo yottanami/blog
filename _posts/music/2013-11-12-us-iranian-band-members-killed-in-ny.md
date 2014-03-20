@@ -5,6 +5,7 @@ date: '2013-11-12T01:26:31+03:30'
 tags:
 - music
 author: yottanami
+category: موسیقی
 ---
 
 US-Iranian band members killed in NY

@@ -6,10 +6,11 @@ tags:
 - emacs
 - gnu
 - editor
-author:yottanami
+author: yottanami
+category: فناوری
 ---
 Emacs multiple-cursors helps you select and change several same strings together.
 
-More Information:
+More Information :
 [Emacs multiple-cursors of Github](https://github.com/magnars/multiple-cursors.el()
 [Emacs multiple-cursors tutorial on Emacs Rocks!](http://emacsrocks.com/e13.html)
