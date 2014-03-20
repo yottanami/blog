@@ -31,7 +31,7 @@
     {% if page.image %}
     <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}">
     {% else %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/logo.png">
+b    <meta name="twitter:image:src" content="{{ site.url }}/images/logo.png">
     {% endif %}
 
 
