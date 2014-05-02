@@ -483,7 +483,7 @@
   content: '';
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.8) url('../images/semantic-ui/loader-large.gif?1396986429') no-repeat 50% 50%;
+  background: rgba(255, 255, 255, 0.8) url('../images/semantic-ui/loader-large.gif?1397211384') no-repeat 50% 50%;
   visibility: visible;
 }
 
@@ -2206,7 +2206,7 @@ body > .ui.grid {
   content: '';
   width: 100%;
   height: 100%;
-  background: rgba(255, 255, 255, 0.8) url('../images/semantic-ui/loader-large.gif?1396986429') no-repeat 50% 50%;
+  background: rgba(255, 255, 255, 0.8) url('../images/semantic-ui/loader-large.gif?1397211384') no-repeat 50% 50%;
   visibility: visible;
 }
 
@@ -5904,7 +5904,7 @@ i.massive.basic.icon {
   width: 100%;
   height: 100%;
   content: '';
-  background: transparent url('../images/semantic-ui/loader-mini.gif?1396986429') no-repeat 50% 50%;
+  background: transparent url('../images/semantic-ui/loader-mini.gif?1397211384') no-repeat 50% 50%;
 }
 
 /* line 135, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/semantic-ui-sass-0.15.1.0/app/assets/stylesheets/semantic-ui/elements/_button.scss */
@@ -6414,7 +6414,7 @@ i.massive.basic.icon {
 /* loading */
 /* line 596, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/semantic-ui-sass-0.15.1.0/app/assets/stylesheets/semantic-ui/elements/_button.scss */
 .ui.huge.loading.button:after {
-  background-image: url('../images/semantic-ui/loader-small.gif?1396986429');
+  background-image: url('../images/semantic-ui/loader-small.gif?1397211384');
 }
 
 /* line 603, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/semantic-ui-sass-0.15.1.0/app/assets/stylesheets/semantic-ui/elements/_button.scss */
@@ -6422,13 +6422,13 @@ i.massive.basic.icon {
 .ui.gigantic.buttons .loading.button:after,
 .ui.massive.loading.button:after,
 .ui.gigantic.loading.button:after {
-  background-image: url('../images/semantic-ui/loader-medium.gif?1396986429');
+  background-image: url('../images/semantic-ui/loader-medium.gif?1397211384');
 }
 
 /* line 608, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/semantic-ui-sass-0.15.1.0/app/assets/stylesheets/semantic-ui/elements/_button.scss */
 .ui.huge.loading.button:after,
 .ui.huge.loading.button.active:after {
-  background-image: url('../images/semantic-ui/loader-small.gif?1396986429');
+  background-image: url('../images/semantic-ui/loader-small.gif?1397211384');
 }
 
 /* line 619, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/semantic-ui-sass-0.15.1.0/app/assets/stylesheets/semantic-ui/elements/_button.scss */
@@ -6440,7 +6440,7 @@ i.massive.basic.icon {
 .ui.gigantic.buttons .loading.button.active:after,
 .ui.massive.loading.button.active:after,
 .ui.gigantic.loading.button.active:after {
-  background-image: url('../images/semantic-ui/loader-medium.gif?1396986429');
+  background-image: url('../images/semantic-ui/loader-medium.gif?1397211384');
 }
 
 /*--------------
@@ -10407,7 +10407,7 @@ img.ui.image {
 ---------------------*/
 /* line 82, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/semantic-ui-sass-0.15.1.0/app/assets/stylesheets/semantic-ui/elements/_input.scss */
 .ui.loading.input > .icon {
-  background: url('../images/semantic-ui/loader-mini.gif?1396986429') no-repeat 50% 50%;
+  background: url('../images/semantic-ui/loader-mini.gif?1397211384') no-repeat 50% 50%;
 }
 
 /* line 87, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/semantic-ui-sass-0.15.1.0/app/assets/stylesheets/semantic-ui/elements/_input.scss */
@@ -11717,28 +11717,28 @@ a.ui.teal.label:hover:before {
 /* line 107, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/semantic-ui-sass-0.15.1.0/app/assets/stylesheets/semantic-ui/elements/_loader.scss */
 .ui.dimmer .mini.ui.loader,
 .ui.inverted .mini.ui.loader {
-  background-image: url('../images/semantic-ui/loader-mini-inverted.gif?1396986429');
+  background-image: url('../images/semantic-ui/loader-mini-inverted.gif?1397211384');
 }
 
 /* Small Size */
 /* line 114, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/semantic-ui-sass-0.15.1.0/app/assets/stylesheets/semantic-ui/elements/_loader.scss */
 .ui.dimmer .small.ui.loader,
 .ui.inverted .small.ui.loader {
-  background-image: url('../images/semantic-ui/loader-small-inverted.gif?1396986429');
+  background-image: url('../images/semantic-ui/loader-small-inverted.gif?1397211384');
 }
 
 /* Standard Size */
 /* line 121, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/semantic-ui-sass-0.15.1.0/app/assets/stylesheets/semantic-ui/elements/_loader.scss */
 .ui.dimmer .ui.loader,
 .ui.inverted.loader {
-  background-image: url('../images/semantic-ui/loader-medium-inverted.gif?1396986429');
+  background-image: url('../images/semantic-ui/loader-medium-inverted.gif?1397211384');
 }
 
 /* Large Size */
 /* line 128, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/semantic-ui-sass-0.15.1.0/app/assets/stylesheets/semantic-ui/elements/_loader.scss */
 .ui.dimmer .large.ui.loader,
 .ui.inverted .large.ui.loader {
-  background-image: url('../images/semantic-ui/loader-large-inverted.gif?1396986429');
+  background-image: url('../images/semantic-ui/loader-large-inverted.gif?1397211384');
 }
 
 /*-------------------
@@ -11750,7 +11750,7 @@ a.ui.teal.label:hover:before {
 .ui.mini.loader {
   width: 16px;
   height: 16px;
-  background-image: url('../images/semantic-ui/loader-mini.gif?1396986429');
+  background-image: url('../images/semantic-ui/loader-mini.gif?1397211384');
 }
 
 /* Small Size */
@@ -11759,7 +11759,7 @@ a.ui.teal.label:hover:before {
 .ui.small.loader {
   width: 24px;
   height: 24px;
-  background-image: url('../images/semantic-ui/loader-small.gif?1396986429');
+  background-image: url('../images/semantic-ui/loader-small.gif?1397211384');
 }
 
 /* line 155, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/semantic-ui-sass-0.15.1.0/app/assets/stylesheets/semantic-ui/elements/_loader.scss */
@@ -11767,7 +11767,7 @@ a.ui.teal.label:hover:before {
 .ui.loader {
   width: 32px;
   height: 32px;
-  background: url('../images/semantic-ui/loader-medium.gif?1396986429') no-repeat;
+  background: url('../images/semantic-ui/loader-medium.gif?1397211384') no-repeat;
   background-position: 48% 0px;
 }
 
@@ -11777,7 +11777,7 @@ a.ui.teal.label:hover:before {
 .ui.loader.large {
   width: 64px;
   height: 64px;
-  background-image: url('../images/semantic-ui/loader-large.gif?1396986429');
+  background-image: url('../images/semantic-ui/loader-large.gif?1397211384');
 }
 
 /*-------------------
@@ -16058,7 +16058,7 @@ a.ui.nag {
 ---------------*/
 /* line 200, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/semantic-ui-sass-0.15.1.0/app/assets/stylesheets/semantic-ui/modules/_search.scss */
 .ui.search.loading .input .icon {
-  background: url('../images/semantic-ui/loader-mini.gif?1396986429') no-repeat 50% 50%;
+  background: url('../images/semantic-ui/loader-mini.gif?1397211384') no-repeat 50% 50%;
 }
 
 /* line 205, ../../../../.rbenv/versions/2.0.0-p247/lib/ruby/gems/2.0.0/gems/semantic-ui-sass-0.15.1.0/app/assets/stylesheets/semantic-ui/modules/_search.scss */
@@ -16595,7 +16595,7 @@ body.pushed.scrolling.ui.dimmable {
   width: 100%;
   height: 100%;
   padding-top: 75px;
-  background: url('../images/semantic-ui/loader-large.gif?1396986429') no-repeat 0px 0px;
+  background: url('../images/semantic-ui/loader-large.gif?1397211384') no-repeat 0px 0px;
   visibility: visible;
 }
 
