@@ -9,3 +9,5 @@ gem "jekyll-categories"
 gem 'rb-fsevent'
 gem 'rb-inotify'
 gem 'ffi'
+
+gem 'jekyll_pdate_plugin'
