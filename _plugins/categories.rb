@@ -1,4 +1,4 @@
--# place this file in your plugins directory and add the tag to your sidebar
+# place this file in your plugins directory and add the tag to your sidebar
 # $ cat source/_includes/custom/asides/categories.html
 #<section>
 #  <h1>Categories</h1>
