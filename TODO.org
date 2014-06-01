@@ -1,4 +1,4 @@
-* Should Add
-** KarajLug Talk & Khaje Nasir
+* Draft posts
 ** Ebrahim problem
 ** Why we should not use Ubuntu
+** bitlbee
