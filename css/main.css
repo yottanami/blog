@@ -160,3 +160,10 @@ a:visited { color: #a0a; }
 .post pre.terminal code {
   background-color: #333;
 }
+
+.ui.grid img{
+	display:block;
+	
+    margin-left: auto;
+    margin-right: auto
+}
