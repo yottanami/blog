@@ -7,7 +7,7 @@ tags:
 - terminal
 - linux
 author: yottanami
-category: فناوری
+category: linux
 ---
 If you know GNU Screen or you use it I suggest you try Tmux, It is a perfetc terminal multiplexer that lets you run numerous TTY’s in the same terminal window.
 

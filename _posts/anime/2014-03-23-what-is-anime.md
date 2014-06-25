@@ -5,7 +5,7 @@ date: '2014-03-23T17:12:31+03:30'
 tags:
 - anime
 author: yottanami
-category: انیمه
+category: anime
 ---
 
 

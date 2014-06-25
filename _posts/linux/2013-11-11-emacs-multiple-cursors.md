@@ -7,7 +7,7 @@ tags:
 - gnu
 - editor
 author: yottanami
-category: فناوری
+category: linux
 ---
 Emacs multiple-cursors helps you select and change several same strings together.
 

@@ -6,6 +6,6 @@ tags:
 - ruby
 - programming
 author: yottanami
-category: برنامه‌نویسی
+category: programming
 ---
 rbenv is a perfect software that helps ruby developers to use different versions of Ruby on a machine,You can install and management different versions of a Ruby and also set version of Ruby per directories.
