@@ -64,7 +64,7 @@
     {% if page.image %}
     <meta content="{{ site.url }}/images/{{ page.image }}" property="og:image">
     {% else %}
-    <meta content="{{ site.url }}/images/yottanami.jpg" property="og:image">
+    <meta content="http://yottanami/images/yottanami.jpg" property="og:image">
     {% endif %}
     {% if page.categories %}
     {% for category in page.categories limit:1 %}
@@ -81,8 +81,7 @@
        <!-- Facebook Metadata /-->
         <meta property="og:title" content="Yottanami"/>
         <meta property="og:type" content="article"/>
-        <meta property="og:image" content="images/avatar.jpg"/>
-        <meta property="og:url" content="http://yottanami.com"/>
+        <meta property="og:image" content="http://yottanami.com/images/yottanami.jpg"/>
         <meta property="og:description" content="Yottanami"/>
 
         <!-- Google+ Metadata /-->
