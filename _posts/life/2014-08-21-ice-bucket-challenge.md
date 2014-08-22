@@ -1,12 +1,12 @@
 ---
 layout: post
 title: چالش سطل یخ
-date: '2014-06-24T11:25:00+03:30'
+date: '2014-08-22T11:25:00+03:30'
 tags: challenge
 author: yottanami
 category: life
 ---
-![[چالش سطل یخ](http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg/320px-Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg)
+![چالش سطل یخ](http://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg/320px-Doing_the_ALS_Ice_Bucket_Challenge_%2814927191426%29.jpg)
 
 احتمالا تو چند روز گذشته در خصوص چالش سطل یخ یا همون Ice bycket challenge مطالبی خوندید و یا فیلم‌هایی دیدید.
 
