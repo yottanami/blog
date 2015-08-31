@@ -1,6 +1,6 @@
 name: yottanami
 markdown: redcarpet
-pygments: true
+highlighter: true
 url: http://blog.yottanami.com
 description: Behnam Ahmad Khan Beigi | بهنام احمدخان‌بیگی
 rss_path: /feed

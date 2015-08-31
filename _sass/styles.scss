@@ -83,9 +83,20 @@ a {
   }
   line-height: 1.5;
   .post-title {
+      font-family: 'Iranian Sans', tahoma, verdana;
     font-size: 1.6em;
     letter-spacing:-2px;
     font-weight:normal;
+  }
+  .ui{
+  p{
+  img {
+    max-width: 100% !important;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
+  }
   }
 }
 .post code {
