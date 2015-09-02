@@ -7,7 +7,7 @@
 html, body {
   background: $BG;
   color: $darkgray;
-  font-family: 'Iranian Sans', tahoma, verdana;
+  font-family: 'Iranian Sans', tahoma, verdana !important;
 }
 
 body {
@@ -16,14 +16,14 @@ body {
 
 .left-header {
   h1 {
-    font-size: 1.6em;
+    font-size: 1.6em !important;
   }
   h2 {
-    font-size: 1.4em;
+    font-size: 1.4em !important;
   }
   p {
-    font-size: 1.2;
-
+    font-size: 1.2 !important;
+    font-family: 'Iranian Sans', tahoma, verdana !important;
   }
 }
 
@@ -44,6 +44,7 @@ body {
   display: block;
 }
 a {
+  font-family: 'Iranian Sans', tahoma, verdana !important;
   text-decoration: none;
   color: $linkColor;
   @include transition(color 300ms linear 0ms);
@@ -83,8 +84,8 @@ a {
   }
   line-height: 1.5;
   .post-title {
-      font-family: 'Iranian Sans', tahoma, verdana;
-    font-size: 1.6em;
+      font-family: 'Iranian Sans', tahoma, verdana !important;
+    font-size: 1.6em !important;
     letter-spacing:-2px;
     font-weight:normal;
   }
@@ -174,7 +175,7 @@ blockquote {
   border: 1px solid $lightergray;
   p {
     padding: 0.2em 0.4em !important;
-    font-size: 0.9em;
+    font-size: 0.9em !important;
   }
 }
 .ohloh {

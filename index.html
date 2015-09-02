@@ -20,12 +20,12 @@ title: Yottanami's Blog
 <br />
 <div class="row">
   <div class="right aligned column">
-  <div class="pagination mini ui buttons">
+  <div class="pagination ui buttons">
     {% if paginator.previous_page %}
     {% if paginator.page == 2 %}
-    <a href="/" class="mini ui orange animated button previous">
+    <a href="/" class=" ui orange animated button previous">
     {% else %}
-    <a href="/page{{ paginator.previous_page }}" class="mini ui orange animated button previous">
+    <a href="/page{{ paginator.previous_page }}" class=" ui orange animated button previous">
     {% endif %}
       <div class="visible content">
         Prev
@@ -35,11 +35,11 @@ title: Yottanami's Blog
       </div>
     </a>
     {% else %}
-    <span class="previous mini ui disabled orange button">Previous</span>
+    <span class="previous ui disabled orange button">Previous</span>
     {% endif %}
-    <span class="page_number mini ui button">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
+    <span class="page_number ui button">Page: {{ paginator.page }} of {{ paginator.total_pages }}</span>
     {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next mini ui green animated button">
+    <a href="/page{{ paginator.next_page }}" class="next  ui green animated button">
       <div class="visible content">
       Next
       </div>
@@ -49,7 +49,7 @@ title: Yottanami's Blog
       </div>
     </a>
     {% else %}
-    <span class="next mini ui disabled green button">Next</span>
+    <span class="next  ui disabled green button">Next</span>
   {% endif %}
   </div>
   </div>
