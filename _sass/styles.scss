@@ -1,184 +1,52 @@
-@import 'semantic-ui';
-@import 'variables';
-@import "compass/css3/shared";
-@import "compass/css3";
+body{
+  direction: rtl;
+}
 
+body, p, input, h1, h2, h3, h4, h5, a{
+  font-family: Vazir !important;
+}
 
-html, body {
-  background: $BG;
-  color: $darkgray;
-  font-family: 'Iranian Sans', tahoma, verdana !important;
+img{
+  max-width: 100%;
+  display: block;
+    margin-left: auto;
+    margin-right: auto
 }
 
 body {
-  //border-top: 3px solid $gray;
+  background-color: #FFFFFF;
 }
 
-.left-header {
-  h1 {
-    font-size: 1.6em !important;
-  }
-  h2 {
-    font-size: 1.4em !important;
-  }
-  p {
-    font-size: 1.2 !important;
-    font-family: 'Iranian Sans', tahoma, verdana !important;
-  }
+.ui.menu .item img.logo {
+  margin-right: 1.5em;
 }
 
-.nonfloat {
-  //float: none !important;
+.main.container {
+  margin-top: 3em;
 }
-.ui.menu {
+
+.pagination {
+  direction: ltr;
+}
+
+.main.menu{
+  height: 3.7em;
   border-radius: 0;
-}
-
-.header-bg {
-  background: url("/images/header.png") 0 0 repeat-x transparent;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 200px;
-  display: block;
-}
-a {
-  font-family: 'Iranian Sans', tahoma, verdana !important;
-  text-decoration: none;
-  color: $linkColor;
-  @include transition(color 300ms linear 0ms);
-
-  &:visited, &:active {
-    color: $visitedLinkColor;
-    @include transition(color 300ms linear 0ms);
-
+  a{
+    font-weight: bold;
   }
-  &:hover {
-    @include transition(color 300ms linear 0ms);
-    color: $hoverColor;
-  }
-
-}
-
-.center-image {
-  margin: 1em auto;
-
-}
-
-.brand {
-
-  padding-top: 8em;
-  border-right: 1px dotted #d9d9d9;
-  h1 {
-    font-size: 1.3em;
+  .item{
+    font-weight: bold;
   }
 }
 
-.post {
-  ul {
-    li{
-      margin-left: 2.5em;
-       margin-right: 2.5em;
-      }
-  }
-  line-height: 1.5;
-  .post-title {
-      font-family: 'Iranian Sans', tahoma, verdana !important;
-    font-size: 1.6em !important;
-    letter-spacing:-2px;
-    font-weight:normal;
-  }
-  .ui{
-  p{
-  img {
-    max-width: 100% !important;
-    display: block;
-    margin-left: auto;
-    margin-right: auto
-  }
-  }
-  }
-}
-.post code {
-  border-radius: 3px;
-  background-color: #eeeeec;
-  padding: 0.1em 0.2em;
-}
-
-.post pre {
-  border-radius: 3px;
-  background-color: #eeeeec;
-  padding: 0.2em;
-}
-
-.maincontainer {
-  min-height: 100%;
-  position: relative;
-}
-
-footer {
-  clear: both;
-  z-index: 10;
-  width: 100%;
-  position: static;
-  bottom: 0;
-  background: #333;
-  color: #eee;
-  margin-top: 5em;
-
-  .column {
-    padding: 0em 0;
-    h1 {
-      margin-bottom: 0 !important;
-    }
-    span {
-      font-size: 0.7em !important;
-      color: #b9b9b9 !important;
-      a {
-        color: white;
-      }
-    }
-
-  }
-
-}
-
-.ui.label {
-  text-transform: capitalize;
-}
-
-.fsegment {
-  font-size: 0.8rem !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
-}
-
-.author {
-  h1 {
-    font-size: 1.4em;
-  }
-}
-
-.invert-link, .invert-link:active, .invert-link:visited {
-  color: #ddd;
-  @include text-shadow(0 1px 1px #777);
-}
-
-.invert-link:hover {
-  color: white !important;
-}
-
-blockquote {
-  background: $BG;
-  border-radius: 3px;
-  border: 1px solid $lightergray;
+.post{
   p {
-    padding: 0.2em 0.4em !important;
-    font-size: 0.9em !important;
+    font-size: 1.15em;
+    text-align: justify;
+    line-height: 1.7;
   }
 }
-.ohloh {
-  display: inline-block;
-  padding-top: 0.2em;
+.ui.menu .item > i.icon, .ui.label > .icon{
+  margin: 0em 0em 0em 0.75em !important;
 }

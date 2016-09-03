@@ -11,3 +11,5 @@ gem 'rb-inotify'
 gem 'ffi'
 
 gem 'jekyll_pdate_plugin'
+gem 'jekyll-paginate'
+gem 'redcarpet'

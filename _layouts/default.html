@@ -5,8 +5,8 @@
     <link rel="shortcut icon" href="http://www.yottanami.com/images/yottanami.ico">
     <link rel="alternate" hreflang="fa-IR" href="http://blog.yottanami.com">
     <meta name="description" content="Personal blog site of Behnam Ahmad Khan Beigi | وبلاگ شخصی بهنام احمد خان بیگی">
-    <meta name="keywords" content="yottanami blog behnam ahmad khan beigi developer linux gnu software music" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="keywords" content="yottanami, blog, behnam, ahmad khan beigi, software, developer, linux, gnu, software, music, بهنام احمد خان بیگی, خانبیگی" />
+
     {% if page.title %}
     <title>{{ page.title }}</title>
     {% else %}
@@ -112,20 +112,20 @@
 
     <!-- syntax highlighting CSS -->
     <link rel="stylesheet" href="/css/tango.css">
-    <link rel="stylesheet" media="screen" href="http://openfontlibrary.org/face/iranian-sans" rel="stylesheet" type="text/css"/>
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="/css/semantic-ui/semantic-ui.css">
+    <link href="https://cdn.rawgit.com/rastikerdar/vazir-font/v4.1.0/dist/font-face.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="/css/styles.css">
+
   </head>
   <body>
 
-    <div class="ui computer tablet only thin sidebar small vertical menu">
+    <div class="ui computer tablet only sidebar small vertical menu">
       <div class="header item">
-        <a href="/categories"><i class="reorder icon"></i> Categories</a>
+        <a href="/categories"><i class="unordered list icon"></i> موضوعات</a>
       </div>
       {% category_list %}
       <div class="header item">
-        <a href="/tags"><i class="tags icon"></i> Tags</a>
+        <a href="/tags"><i class="tags icon"></i> تگ‌ها</a>
       </div>
 
     </div>
@@ -133,45 +133,47 @@
 
     <div class="ui mobile only thin right sidebar wide floating vertical menu">
       <div class="item"><a href="http://www.yottanami.com"><i class="home icon"></i> صفحه اول</a></div>
-      <div class="item"><a href="/"><i class="home icon"></i>و‌بلاگ</a></div>
-      <div class="item"><a href="/categories"><i class="reorder icon"></i> موضوعات</a></div>
+      <div class="item"><a href="/"><i class="newspaper icon"></i>و‌بلاگ</a></div>
+      <div class="item"><a href="/categories"><i class="unordered list icon"></i> موضوعات</a></div>
       <div class="item"><a href="/tags"><i class="tags icon"></i> تگ‌ها</a></div>
 
       <div class="item"><a  href="http://twitter.com/yottanami"><i class="large twitter sign icon"></i>Follow me on Twitter</a></div>
       <div class="item"><a  href="http://github.com/yottanami"><i class="large github icon"></i>Follow me on Github</a></div>
       <div class="item"><a  href="https://plus.google.com/+BehnamAhmadKhanBeigi?rel=author"><i class="large google plus sign icon"></i>Follow me on Google+</a></div>
-      <div class="item"><a  href="http://ir.linkedin.com/pub/behnam-ahmad-khan-beigi/55/930/857"><i class="large linkedin sign icon"></i>Follow me on Linkdin</a></div>
+      <div class="item"><a  href="http://ir.linkedin.com/pub/behnam-ahmad-khan-beigi/55/930/857"><i class="large linkedin sign icon"></i>Follow me on Linkedin</a></div>
 
 
-      <div class="item"><a class="toggle button mobile" href="#"><i class="large remove icon"></i> Close</a></div>
+      <div class="item"><a class="toggle button mobile" href="#"><i class="large remove icon"></i> بستن</a></div>
     </div>
 
     <div class="ui computer tablet only vertical masthead right aligned ">
-      <div class="ui fluid menu gray invert">
-        <a href="http://www.yottanami.com" class="item"><i class="home icon"></i> صفحه اول</a>
-        <a href="/" class="item"><i class="home icon"></i> وبلاگ</a>
-        <a href="#" class="toggle button computer item"><i class="reorder icon"></i> موضوعات</a>
-        <a href="/tags" class="item""><i class="tags icon"></i> تگ‌ها</a></a>
+      <div class="ui main menu inverted">
+        <div class="ui container">
+          <a href="http://www.yottanami.com" class="item"><i class="home icon"></i> صفحه اول</a>
+          <a href="/" class="item"><i class="newspaper icon"></i> وبلاگ</a>
+          <a href="#" class="toggle button computer item"><i class="unordered list icon"></i> موضوعات</a>
+          <a href="/tags" class="item""><i class="tags icon"></i> تگ‌ها</a></a>
 
-        <a href="#" class="ui simple dropdown item">
+        <div href="#" class="ui simple dropdown item">
+          <i class="dropdown icon"></i>
           دنبال کردن
           <div class="menu">
-            <div class="item" href="http://twitter.com/yottanami"><i class="twitter sign icon"></i> Twitter</div>
-            <div class="item" href="http://github.com/yottanami"><i class="github icon"></i> Github</div>
-            <div class="item" href="https://plus.google.com/+BehnamAhmadKhanBeigi?rel=author"><i class="google plus sign icon"></i> Google+</div>
-            <div class="item" href="http://ir.linkedin.com/pub/behnam-ahmad-khan-beigi/55/930/857"><i class="linkedin sign icon"></i>Linkdin</div>
+            <a class="item" href="http://twitter.com/yottanami"><i class="twitter sign icon"></i> Twitter</a>
+            <a class="item" href="http://github.com/yottanami"><i class="github icon"></i> Github</a>
+            <a class="item" href="https://plus.google.com/+BehnamAhmadKhanBeigi?rel=author"><i class="google plus sign icon"></i> Google+</a>
+            <a class="item" href="http://ir.linkedin.com/pub/behnam-ahmad-khan-beigi/55/930/857"><i class="linkedin sign icon"></i>Linkdin</a>
           </div>
-        </a>
+        </div>
         <div class="left menu">
           <a class="item" href="/feed/feed.xml"><i class="rss icon"></i></a>
         </div>
+        </div>
       </div>
-
     </div>
 
     <div class="ui mobile only grid">
       <div class="ui fluid small inverted menu">
-        <a href="#" class="toggle button mobile item"><i class="reorder icon"></i></a>
+        <a href="#" class="toggle button mobile item"><i class="unordered list icon"></i></a>
         <div class="right menu">
           <a class="item" href="/feed/feed.xml"><i class="rss icon"></i></a>
         </div>
@@ -180,16 +182,8 @@
 
 
 
-    <div class="ui one column page  maincontainer">
-      <div class="column">
-        <div class="row">
-          <div class="stackable ui grid">
-            <div class="column">
-              {{ content }}
-            </div>
-          </div>
-        </div>
-      </div>
+    <div class="ui main text container">
+      {{ content }}
     </div>
 
     <footer>
@@ -232,7 +226,6 @@
      $(".ui.dropdown").dropdown();
      $(".ui.computer.sidebar").sidebar('attach events', '.toggle.button.computer');
      $(".ui.mobile.sidebar").sidebar({overlay: true}).sidebar('attach events', '.toggle.button.mobile');
-
     </script>
   </body>
 </html>
