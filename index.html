@@ -1,56 +1,16 @@
 ---
-layout: home
-title: Yottanami's Blog
+layout: default
+title: Home
 ---
 
-{% for post in paginator.posts %}
-{% assign author = site.authors[post.author] %}
-<div class="post row">
-  <div class="ui segment">
-    <br class="mobile only"/>
-    <h1 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h1>
-    <div class="ui teal top left attached  label"><i class="large time icon"></i>{{ post.date | pdate_to_string }}</div>
-    <p>{{ post.content }}</p>
-
-  </div>
-</div>
-<br />
-{% endfor %}
-
-<br />
-<div class="row">
-  <div class="">
-  <div class="pagination ui buttons">
-    {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-    <a href="/" class=" ui orange animated button previous">
-    {% else %}
-    <a href="/page{{ paginator.previous_page }}" class=" ui orange animated button previous">
-    {% endif %}
-      <div class="visible content">
-        Prev
-      </div>
-      <div class="hidden content">
-        <i class="left arrow icon"></i>
-      </div>
-    </a>
-    {% else %}
-    <span class="previous ui disabled orange button">صفحه قبل</span>
-    {% endif %}
-    <span class="page_number ui button">صفحه {{ paginator.page }} از {{ paginator.total_pages }}</span>
-    {% if paginator.next_page %}
-    <a href="/page{{ paginator.next_page }}" class="next  ui green animated button">
-      <div class="visible content">
-      صفحه بعد
-      </div>
-      <div class="hidden content">
-
-        <i class="right arrow icon"></i>
-      </div>
-    </a>
-    {% else %}
-    <span class="next  ui disabled green button">صفحه بعد</span>
-  {% endif %}
-  </div>
-  </div>
-</div>
+<h1>Behnam Ahmadkhanbeigi</h1>
+<Br>
+<h2><a href="/blog.html">Blog (In Persian)</a></h2>
+<br>
+<h2><a href="https://gitlab.com/yottanami">Gitlab</a></h2>
+<Br>
+<h2><a href="http://twitter.com/yottanami">Twitter</a></h2>
+<Br>
+<h2><a href="https://www.linkedin.com/in/yottanami/">Linkedin</a></h2>
+<Br>
+<h2><a href="http://instagram.com/yottanami">Instagram</a></h2>
