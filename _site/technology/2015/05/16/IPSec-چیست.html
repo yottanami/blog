@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>IPSec چیست؟ | yottanami</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="IPSec چیست؟" />
+<meta name="author" content="yottanami" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="چند وقت پیش یک مطلب کوتاه در خصوص معرفی IPSec نوشتم و گفتم شاید بد نباشه اینجا به اشتراک بزارم. فکر می‌کنم آشنایی کلی با این طور مفاهیم اولیه برای هر کسی که توی حوزه آی‌تی فعالیت می‌کنه لازم خواهد بود:" />
+<meta property="og:description" content="چند وقت پیش یک مطلب کوتاه در خصوص معرفی IPSec نوشتم و گفتم شاید بد نباشه اینجا به اشتراک بزارم. فکر می‌کنم آشنایی کلی با این طور مفاهیم اولیه برای هر کسی که توی حوزه آی‌تی فعالیت می‌کنه لازم خواهد بود:" />
+<link rel="canonical" href="http://blog.yottanami.com/technology/2015/05/16/IPSec-%DA%86%DB%8C%D8%B3%D8%AA.html" />
+<meta property="og:url" content="http://blog.yottanami.com/technology/2015/05/16/IPSec-%DA%86%DB%8C%D8%B3%D8%AA.html" />
+<meta property="og:site_name" content="yottanami" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2015-05-16T13:23:07+04:30" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"IPSec چیست؟","dateModified":"2015-05-16T13:23:07+04:30","datePublished":"2015-05-16T13:23:07+04:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://blog.yottanami.com/technology/2015/05/16/IPSec-%DA%86%DB%8C%D8%B3%D8%AA.html"},"url":"http://blog.yottanami.com/technology/2015/05/16/IPSec-%DA%86%DB%8C%D8%B3%D8%AA.html","author":{"@type":"Person","name":"yottanami"},"description":"چند وقت پیش یک مطلب کوتاه در خصوص معرفی IPSec نوشتم و گفتم شاید بد نباشه اینجا به اشتراک بزارم. فکر می‌کنم آشنایی کلی با این طور مفاهیم اولیه برای هر کسی که توی حوزه آی‌تی فعالیت می‌کنه لازم خواهد بود:","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://blog.yottanami.com/feed.xml" title="yottanami" /></head>
+<link rel="stylesheet" href="/assets/css/home.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lalezar">
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <body>
+
+    <div id="wrapper" >
+      <div id="box">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" style="direction: rtl">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">IPSec چیست؟</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2015-05-16T13:23:07+04:30" itemprop="datePublished">May 16, 2015
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">yottanami</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p><em>چند وقت پیش یک مطلب کوتاه در خصوص معرفی IPSec نوشتم و گفتم شاید بد نباشه اینجا به اشتراک بزارم. فکر می‌کنم آشنایی کلی با این طور مفاهیم اولیه برای هر کسی که توی حوزه آی‌تی فعالیت می‌کنه لازم خواهد بود:</em></p>
+
+<p><strong>امنیت چیست:</strong></p>
+
+<p>قبل از شروع بحث در مورد IPSec باید شناختی کلی از امنیت در دنیای اینترنت و شبکه داشته باشیم و اینکه چه انتظاری از امنیت داریم.</p>
+
+<p>امنیت را می‌توان به روش‌های گوناگون تعریف کرد و هر کس مورد خاصی را از شبکه در نظر دارد اما به طور کلی می‌توان گفت امنیت از نظر ما در دنیای شبکه یعنی :
+رازداری: جلوگیری از دسترسی غیر مجاز به اطلاعات 
+احراز هویت: اصالت سنجی و تصدیق جهت دسترسی
+جامعیت : تمامیت بخشیدن به داده جهت حفظ صحت</p>
+
+<p><strong>IPSec چیست:</strong></p>
+
+<p>با توجه به اینکه امنیت در زمان پیاده‌سازی IPv4 آنقدرها اهمیت نداشت ساختاری برای تعامل امن به صورت توساخت برروی خود IP وجود نداشت در نتیجه پس از مدتی جهت تأمین امنیت ارتباطات روی اینترنت، IPSec توسعه داده شد. در IPv4 به صورت پیشفرض از IPSec استفاده نشده ولی می‌توان آن را اضافه کرد ولی در IPv6 به صورت پیشفرض در نظر گرفته شده است.
+وجود IPSec می‌تواند ارتباط امنی بین یک سرویس‌گیرنده و سرویس‌دهنده و یا بین دو سرویس‌دهنده و یا حتی بین دو شبکه با هم را فراهم نماید.
+در اصل می‌توان گفت IPSec ترکیبی از چندین پروتکل و الگوریتم است که تلاش می‌کند تونلی امن بین مبدأ و مقصد ایجاد می‌کند که این تونل اصولاً بر روی پروتکل نا امن اینترنت پیاده‌سازی می‌شود.
+با توجه به مطالب فوق و همچنین اهمیت امنیت در این روزها، دانستن مفاهیم اولیه‌ای در خصوص IPSec می‌تواند مفید باشد.</p>
+
+<p><strong>IPSec چگونه امنیت را تأمین می‌کند:</strong></p>
+
+<p>IPSec با به کارگیری الگوریتم‌های رمزنگاری متنوع از دسترسی نفوذگران به اطلاعات جلوگیری می‌نماید
+در اصل با کمک گرفتن از روش‌هایی از جمله بررسیhash sum و الگوریتم‌های هشینگ از صحت محتوای بسته‌های داخل شبکه را تأیید می‌کند.
+یکی از قابلیت‌های دیگر IPSec پروتکل‌های تصدیق هویت و یا اصالت سنجی است که به طور معمول با ایجاد کلید عمومی و خصوصی به تصدیق دسترسی می‌پردازد.
+IPSec چگونه کار می‌کند</p>
+
+<p>مرحله اول پیکربندی ساختار می‌باشد و پس از پیکربندی، گیرنده و فرستنده تلاش می‌کنند تا بین هم یک تونل امن ایجاد کنند که این  امر به عهده پروتکلی به نام IKE می‌باشد.
+خود IKE از پروتکلی با نام ISAKMP برای انتفال اطلاعات داخل تونل استفاده می‌نماید. وظیفه دیگر IKE اصالت سنحی و تولید و جابجایی کلید‌های عمومی در مرجله بعد می‌باشد.
+زمان ساخته شدن تونل فرستنده و گیرنده روش رمزنگاری را تأیید و از آن استفاده می‌نمایند</p>
+
+<p><strong>تعامل بین دو عضو</strong></p>
+
+<p>حالت اول ( main mode ): در این مرحله تجهیزات مرتبط با IPSec به توافق می‌رسند که از چه روش‌هایی برای انتقال اطلاعات امن استفاده نمایند. و یک ارتباط امن برای پیکربندی حالت بعدی ایجاد می‌نماید</p>
+
+<p>حالت دوم(quick mode): در این حالت کلیه پارامترهای مورد نیاز برای یکپارچگی داده‌ها و رمزنگاری آن‌ها تعامل می‌شود. خود این ارتباط نیز در تونلی رمزنگاری شده که در مرحله قبلی آماده شده.
+به طور معمول AH در Main mode کاربرد دارد و ESP در Quick mode.</p>
+
+<p><strong>مبنای انتقال اطلاعات در IPSec</strong></p>
+
+<p>AH (سرایند تصدیق) و ESP ( کپسوله سازی بار مفید امنیت) دو پروتکل اصلی هستند که در IPSec به کار می‌روند و قبل‌تر به آن اشاره‌ا ی شد. باید توجه داشت که پروتکل AH از NAT پشتیبانی نمی‌کند</p>
+
+<p>AH به منظور تصدیق هویت به کار می‌رود که این امر معمولاً با محاسبه و بررسی یک HASH (یک رشته شامل عدد و متن) بر روی بسته‌های آی‌پی انجام می‌شود.</p>
+
+<p>ESP نیز مشابه AH می‌باشد و علاوه بر قابلیت‌های آن قابلیت رمزنگاری اطلاعات و رمزنگاری را نیز دارد.</p>
+
+<p>برای اطلاعات بیشتر می‌توانید به استاندارد‌های مرتبط IPSec مراجعه کنید:</p>
+
+<p>RFC 4301 : معماری امنیت آی‌پی- معماری IPSec و AH و ESP را تعریف می‌کند.</p>
+
+<p>RFC 4302: به تعریف AH می‌پردازد.</p>
+
+<p>RFC4303: به تعریف ESP می‌پردازد.</p>
+
+<p>RFC2408: در خصوص ISAKMP می‌باشد</p>
+
+<p>RFC5996: نسخه دوم IKE را ارائه می‌نماید.</p>
+
+<p>RFC 4835: الگوریتم رمزنگاری برای ESP و AH</p>
+
+<p>منابع</p>
+
+<p>APNIC eLearning: IPSec Basics 19 March 2014</p>
+
+<p>Internet Protocol Security (IPSec) – Swapnill &amp; Adit Deshpande</p>
+
+<p>Configuring IPSec – ITFreeTraining.com</p>
+
+  </div><a class="u-url" href="/technology/2015/05/16/IPSec-%DA%86%DB%8C%D8%B3%D8%AA.html" hidden></a>
+</article>
+
+      </div>
+    </main>
+
+  </body>
+
+</html>

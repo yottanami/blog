@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>تحمل‌پذیری خطا و عوامل موثر آن | yottanami</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="تحمل‌پذیری خطا و عوامل موثر آن" />
+<meta name="author" content="yottanami" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="برای تولید یک نرم‌افزار موفق، موارد مختلفی رو باید در نظر گرفت از تحلیل اولیه سیستم گرفته تا کمک گرفتن از متودولوژی‌های توسعه مناسب و روش‌های مختلف تست و … قصد دارم توی این وبلاگ گهگاهی به یک سری از این مطالب اشاره کنم. یکی از فاکتورهای تولید یک سیستم، در نظر گرفتن تحمل پذیری خطای اون سیستم و عوامل موثر روی تحمل‌پذیری خطاست. تحمل‌پذیری خطایا Fault tolerance به زبان ساده یعنی کم کردن احتمال خطا توی یک سیستم و یا به عقب انداختن اون." />
+<meta property="og:description" content="برای تولید یک نرم‌افزار موفق، موارد مختلفی رو باید در نظر گرفت از تحلیل اولیه سیستم گرفته تا کمک گرفتن از متودولوژی‌های توسعه مناسب و روش‌های مختلف تست و … قصد دارم توی این وبلاگ گهگاهی به یک سری از این مطالب اشاره کنم. یکی از فاکتورهای تولید یک سیستم، در نظر گرفتن تحمل پذیری خطای اون سیستم و عوامل موثر روی تحمل‌پذیری خطاست. تحمل‌پذیری خطایا Fault tolerance به زبان ساده یعنی کم کردن احتمال خطا توی یک سیستم و یا به عقب انداختن اون." />
+<link rel="canonical" href="http://blog.yottanami.com/programming/2014/12/01/%D8%AA%D8%AD%D9%85%D9%84-%D9%BE%D8%B0%DB%8C%D8%B1%DB%8C-%D8%AE%D8%B7%D8%A7.html" />
+<meta property="og:url" content="http://blog.yottanami.com/programming/2014/12/01/%D8%AA%D8%AD%D9%85%D9%84-%D9%BE%D8%B0%DB%8C%D8%B1%DB%8C-%D8%AE%D8%B7%D8%A7.html" />
+<meta property="og:site_name" content="yottanami" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2014-12-01T22:43:07+03:30" />
+<script type="application/ld+json">
+{"@type":"BlogPosting","headline":"تحمل‌پذیری خطا و عوامل موثر آن","dateModified":"2014-12-01T22:43:07+03:30","datePublished":"2014-12-01T22:43:07+03:30","mainEntityOfPage":{"@type":"WebPage","@id":"http://blog.yottanami.com/programming/2014/12/01/%D8%AA%D8%AD%D9%85%D9%84-%D9%BE%D8%B0%DB%8C%D8%B1%DB%8C-%D8%AE%D8%B7%D8%A7.html"},"url":"http://blog.yottanami.com/programming/2014/12/01/%D8%AA%D8%AD%D9%85%D9%84-%D9%BE%D8%B0%DB%8C%D8%B1%DB%8C-%D8%AE%D8%B7%D8%A7.html","author":{"@type":"Person","name":"yottanami"},"description":"برای تولید یک نرم‌افزار موفق، موارد مختلفی رو باید در نظر گرفت از تحلیل اولیه سیستم گرفته تا کمک گرفتن از متودولوژی‌های توسعه مناسب و روش‌های مختلف تست و … قصد دارم توی این وبلاگ گهگاهی به یک سری از این مطالب اشاره کنم. یکی از فاکتورهای تولید یک سیستم، در نظر گرفتن تحمل پذیری خطای اون سیستم و عوامل موثر روی تحمل‌پذیری خطاست. تحمل‌پذیری خطایا Fault tolerance به زبان ساده یعنی کم کردن احتمال خطا توی یک سیستم و یا به عقب انداختن اون.","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://blog.yottanami.com/feed.xml" title="yottanami" /></head>
+<link rel="stylesheet" href="/assets/css/home.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lalezar">
+  <link rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <body>
+
+    <div id="wrapper" >
+      <div id="box">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting" style="direction: rtl">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">تحمل‌پذیری خطا و عوامل موثر آن</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2014-12-01T22:43:07+03:30" itemprop="datePublished">Dec 1, 2014
+      </time>• <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">yottanami</span></span></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <p>برای تولید یک نرم‌افزار موفق، موارد مختلفی رو باید در نظر گرفت از تحلیل اولیه سیستم گرفته تا کمک گرفتن از متودولوژی‌های توسعه مناسب و روش‌های مختلف تست و … قصد دارم توی این وبلاگ گهگاهی به یک سری از این مطالب اشاره کنم.
+یکی از فاکتورهای تولید یک سیستم، در نظر گرفتن تحمل پذیری خطای اون سیستم و عوامل موثر روی تحمل‌پذیری خطاست.
+تحمل‌پذیری خطایا Fault tolerance به زبان ساده یعنی کم کردن احتمال خطا توی یک سیستم  و یا به عقب انداختن اون.</p>
+
+<p>و اما فاکتورهای موثر:</p>
+
+<ul>
+  <li>
+    <p>یکی از موارد موثر، بررسی قابلیت اطمینان سیستم هست، یعنی محاسبه احتمال اینکه یه سیستم توی بازه زمانی مشخصی بدون مشکل کار کنه.</p>
+  </li>
+  <li>مورد بعدی در دسترس بودن سیستم در لحظه هست.</li>
+  <li>یکی دیگه از نکات،بررسی سلامت سیستمه به این معنی که سیستم قابل اطمینان باشه و اگر مشکلی هم بود سیستم به طور خوش‌خیم خراب شه !</li>
+  <li>نکته بعدی مدنظر قرار دادن کارآیی سیستم در طی طول عمر سیستم و اینکه میزان کارآیی کمتر از یک مقدار مشخص نباشد.</li>
+  <li>قابلیت تعمیر سیستم هم از جمله موارد موثر در تحمل‌پذیری خطاست.</li>
+</ul>
+
+<p>هر کدوم از این نکات به تنهایی جای بحث داره که امیدوارم بتونم توی نوشته‌های بعدی در مورد اون‌ها توضیحاتی اضافه کنم.</p>
+
+  </div><a class="u-url" href="/programming/2014/12/01/%D8%AA%D8%AD%D9%85%D9%84-%D9%BE%D8%B0%DB%8C%D8%B1%DB%8C-%D8%AE%D8%B7%D8%A7.html" hidden></a>
+</article>
+
+      </div>
+    </main>
+
+  </body>
+
+</html>
