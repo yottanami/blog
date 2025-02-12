@@ -1,25 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
 
----
-layout: default
-title: Home
----
+  <head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="public/tuicss.min.js"></script>
+    <link rel="stylesheet" href="public/tuicss.min.css">
+    <style>
+      ul li {
+          display: inline-block;
+          margin-right: 60px;
+      }
 
-<h3>بهنام ‌خان‌بیگی</h3>
-<h1>Behnam Khanbeigi</h1>
+    </style>
+  </head>
 
-<Br>
-<a href="https://www.linkedin.com/in/yottanami/" title="Linkedin account of Behnam Ahmadkhanbeigi"><i class="fa fa-linkedin fa-3x"></i></a>
 
-<a href="http://www.navagard.com" title="Navagard"><i class="fa fa-microphone fa-3x"></i></a>
+  <body class="black-168">
 
-<a href="http://www.radioboot.com" title="Radioboot"><i class="fa fa-microphone fa-3x"></i></a>
+    <nav class="tui-nav">
+      <span class="tui-datetime" data-format="h:m:s a"></span>
+    </nav>
+    
+    <div>
+      <br><br>
+      <div class="center">
+        <div class="tui-window red-168">
+          <fieldset class="tui-fieldset">
+            <legend align="center">Yottanami</legend>
 
-<a href="https://github.com/yottanami" title="Github account of yottanami"><i class="fa fa-github fa-3x"></i></a>
+	    <h1> بهنام خان‌بیگی</h1>
+	    <h1>Behnam Khanbeigi</h1>            	   
+          </fieldset>		
+        </div>
+	<br>
+      <br><br>
+	<div class="tui-window blue-168">
+          <fieldset class="tui-fieldset no-legend tui-border-solid">
+            <ul>
+              <li class="cyan-255-hover black-255-text-hover">
+                <a href="http://www.navagard.com" target="_blankc">
+                  <span>Navagard Podcast </span>
+                </a>
+              </li>
+	      <li class="cyan-255-hover black-255-text-hover">
+		<a href="http://www.radioboot.com" target="_blankc">
+		  <span>Radioboot Podcast</span>
+		</a>
+	      </li>
+	      <li class="cyan-255-hover black-255-text-hover">
+		<a href="https://www.linkedin.com/in/yottanami/" target="_blank">
+		  <span>Linkedin</span>
+		</a>
+	      </li>
+	      <li class="cyan-255-hover black-255-text-hover">
+		<a href="https://twitter.com/yottanami" target="_blank">
+		  <span>Twitter</span>
+		</a>
+	      </li>
+	      <li class="cyan-255-hover black-255-text-hover">
+		<a href="https://www.instagram.com/yottanami/" target="_blank">
+		  <span>Instagram</span>
+		</a>
+	      </li>
+	      <li class="cyan-255-hover black-255-text-hover">
+		<a href="https://www.flickr.com/yottanami" target="_blank">
+		  <span>Flickr</span>
+		</a>
+	      </li>
+	      <li class="cyan-255-hover black-255-text-hover">
+		<a href="https://www.youtube.com/@makecitement" target="_blank">
+		  <span>Youtube</span>
+		</a>
+	      </li>
+	      
+            </ul>
+          </fieldset>
+        </div>
+      </div>
+    </div>
+    <script>
+      function digit(digit) {
+        let val = document.getElementById("display").value;
+        document.getElementById("display").value = digit + "" + val;
+      }
+      function clearDisplay() {
+        document.getElementById("display").value = "";
+      }
+    </script>
+  </body>
 
-<a href="http://twitter.com/yottanami" title="Twitter account of yottanami"><i class="fa fa-twitter fa-3x"></i></a>
-
-<a href="http://instagram.com/yottanami" title="Instagram account of yottanami"><i class="fa fa-instagram fa-3x"></i></a>
-
-<a href="https://www.flickr.com/yottanami" title="Flikr account of yottanami"><i class="fa fa-flickr fa-3x"></i></a>
-
-<a href="https://www.youtube.com/@makecitement" title="Youtube channel of yottanami"><i class="fa fa-youtube fa-3x"></i></a>
+</html>
