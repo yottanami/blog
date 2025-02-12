@@ -1,0 +1,31 @@
+body{
+    font-family: 'Perfect DOS VGA 437', sans-serif;    
+}
+
+.persian{
+    font-family: 'Vazir Code', monospaced;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+}
+
+h1{
+    font-size: 1.4em;
+}
+
+.hero{
+    margin-top: 20px;
+    width: 30%;
+}
+
+.tui-window {
+    min-width: 300px;
+    margin: 20px;
+}
+
+
+.links li{
+    margin: 10px;
+    margin-right: 10px;
+}
